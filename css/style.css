@@ -1,0 +1,50 @@
+body {
+  background-color: whitesmoke; }
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between; }
+  header .logo {
+    font-size: large;
+    font-weight: bold; }
+  header .logo i {
+    color: red;
+    font-size: 25px; }
+  header .info button {
+    background-color: white;
+    color: blue;
+    border-color: blue; }
+
+section {
+  margin: 15px; }
+  section .player {
+    display: inline-block; }
+  section ul {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0; }
+  section li {
+    margin: 0;
+    padding: 0;
+    display: inline; }
+    section li p {
+      margin: 0;
+      padding: 0;
+      font-size: 0.1em; }
+    section li h6 {
+      margin: 0;
+      padding: 0; }
+    section li .details {
+      display: flex;
+      font-size: 0.1em; }
+    section li .thumbs {
+      margin: 0 10rem; }
+  section .other {
+    float: right; }
+    section .other img {
+      width: 50px;
+      display: inline; }
+    section .other p {
+      display: inline; }

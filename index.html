@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/f8da05bbc2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <!--youtube logo-->
+      <div class="logo">
+        <i class="fa-brands fa-youtube"></i>
+        <span class="title">YouTube</span>
+      </div>
+      <!--search bar-->
+      <div class="search">
+        <input type="text" placeholder="검색" />
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+      <!--information-->
+      <div class="info">
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-bell"></i>
+        <button>로그인</button>
+      </div>
+    </header>
+    <!--section-->
+    <section class="content-container">
+      <!--video player-->
+      <span class="player">
+        <video controls width="500" poster="/img/thumbnail.png"></video>
+        <!--other video-->
+        <span class="other">
+          <ul>
+            <li>
+              <img src="/img/thumbnail1.png" />
+              <p>playlist</p>
+            </li>
+            <br />
+            <li>
+              <img src="/img/thumbnail2.png" />
+              <p>playlist</p>
+            </li>
+          </ul>
+        </span>
+        <!--video information-->
+        <span class="video-info">
+          <ul>
+            <li><p style="color: blue">#여름밤</p></li>
+            <li><h6>달콤쌉싸름하게 농익은 여름밤|playlist</h6></li>
+            <li>
+              <span class="details">
+                <span>조회수 123456789회 2022.08.17</span>
+                <span class="thumbs">
+                  <i class="fa-solid fa-thumbs-up"> 6.7천회 </i>
+                  <i class="fa-solid fa-thumbs-down"> 싫어요 </i>
+                  <i class="fa-solid fa-share"> 공유 </i>
+                  <i class="fa-solid fa-download"> 저장 </i>
+                  <i class="fa-solid fa-ellipsis"> </i>
+                </span>
+              </span>
+            </li>
+          </ul>
+        </span>
+      </span>
+    </section>
+  </body>
+</html>

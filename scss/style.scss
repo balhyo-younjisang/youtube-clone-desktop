@@ -1,0 +1,68 @@
+$flex: flex;
+@mixin mp {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: white;
+  display: $flex;
+  justify-content: space-between;
+  & .logo {
+    font-size: large;
+    font-weight: bold;
+  }
+  & .logo i {
+    color: red;
+    font-size: 25px;
+  }
+  & .info button {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+  }
+}
+
+section {
+  margin: 15px;
+  & .player {
+    display: inline-block;
+  }
+  & ul {
+    list-style: none;
+    display: inline;
+    @include mp;
+  }
+  & li {
+    @include mp;
+    display: inline;
+    & p {
+      @include mp;
+      font-size: 0.1em;
+    }
+    & h6 {
+      @include mp;
+    }
+    & .details {
+      display: $flex;
+      font-size: 0.1em;
+    }
+    & .thumbs {
+      margin: 0 10rem;
+    }
+  }
+  & .other {
+    float: right;
+    & img {
+      width: 50px;
+      display: inline;
+    }
+    & p {
+      display: inline;
+    }
+  }
+}
